@@ -1,0 +1,6 @@
+{
+  "name": "Course Selector Pro",
+  "description": "An application for students to select courses from various professional areas, inspired by Profissionaliza's offerings. Users can browse through different categories like IT, Administration, Design, and more, and pick the courses they are interested in. The selected courses are then summarized for review.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
