@@ -2,7 +2,7 @@
 import React from 'react';
 
 // URL for the Profissionaliza SVG logo
-const LOGO_URL = "https://profissionalizaead.com.br/logo.svg";
+const LOGO_URL = "https://profissionalizaead.com.br/assets/logo/Logo-White.svg";
 
 export const AppHeader: React.FC = () => {
   return (
@@ -21,7 +21,7 @@ export const AppHeader: React.FC = () => {
             src={LOGO_URL}
             alt="Profissionaliza Logo"
             className="h-10 sm:h-12 md:h-14" // Adjusted height, width will be auto
-            style={{ filter: 'brightness(0) invert(1)' }} // Attempts to make a dark SVG logo white for better visibility on the blue background.
+            
                                                         // This might need adjustment or removal if the SVG logo is already light-colored.
           />
           {/*

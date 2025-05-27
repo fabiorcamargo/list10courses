@@ -44,7 +44,7 @@ const App: React.FC = () => {
       <AppHeader />
       <main className="flex-grow container mx-auto px-4 py-8">
         <p className="text-center text-blue-600 font-semibold bg-blue-100 border border-blue-300 p-3 rounded-md mb-6 shadow">
-          Atenção: Você pode selecionar no máximo {courseSelectionLimit} curso(s) para esta simulação.
+          Atenção: Você pode selecionar no máximo {courseSelectionLimit} curso(s).
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           <CategoryColumn
